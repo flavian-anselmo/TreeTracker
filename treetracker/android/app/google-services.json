@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "155410239331",
+    "project_id": "k12hackfest",
+    "storage_bucket": "k12hackfest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155410239331:android:0a5e70085f34f791e68d56",
+        "android_client_info": {
+          "package_name": "com.obinjuprimary.treetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155410239331-hsfnh6svqv56ccdsl7v6ho63sdthi38e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYF8d4V2SansN7z-u5RHXva4o-V8Cm728"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155410239331-hsfnh6svqv56ccdsl7v6ho63sdthi38e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
