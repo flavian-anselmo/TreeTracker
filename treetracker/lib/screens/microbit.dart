@@ -20,7 +20,7 @@ class MicrobitSimulation extends StatelessWidget {
                   style: TextStyle(color: Colors.green, fontSize: 30),
                 )),
                 Text(
-                  'The Students were able to develop a device that tracks a falling tree in the Forest,The Sender device that is attached to a tree  send a signall if there is a freefall and the reciver which is worn by the Warden displays a tree is falling.  ',
+                  'The Students were able to develop a device that tracks a falling tree in the Forest,The Sender device  is attached to a tree  send a signal if there is a freefall and the reciver which is worn by the Warden to inform him or her that a tree is falling.  ',
                   style: TextStyle(color: Colors.white, fontSize: 20),
                 ),
               ],

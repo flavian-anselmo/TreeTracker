@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path/path.dart';
 
@@ -59,7 +60,7 @@ class _UploadPhotoToDbState extends State<UploadPhotoToDb> {
             .add({'videourl': downloadUrl}).whenComplete(() {
           //PUT A toast msg to the user
           print('data saved well ');
-          
+          EasyLoading.showSuccess('You are a Hero ');
         });
       });
     }
@@ -91,7 +92,7 @@ class _UploadPhotoToDbState extends State<UploadPhotoToDb> {
                                 //will access the camera and take tree picture
                                 getFromCamera();
                               },
-                              child: const Text('upload with Camera'),
+                              child: const Text('upload with Camera',style: TextStyle(color:Colors.green,fontSize:20)),
                             ),
                           ],
                         ),
@@ -105,7 +106,7 @@ class _UploadPhotoToDbState extends State<UploadPhotoToDb> {
                               onPressed: () {
                                 //post the image on cloud storage
                               },
-                              child: const Text('upload Image'),
+                              child: const Text('upload Image',style: TextStyle(color:Colors.green,fontSize:20)),
                             ),
                           ],
                         ),

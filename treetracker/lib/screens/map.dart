@@ -1,6 +1,6 @@
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 
 class DisplayTreeAdded extends StatefulWidget {
   const DisplayTreeAdded({Key? key}) : super(key: key);
@@ -28,8 +28,9 @@ class _DisplayTreeAddedState extends State<DisplayTreeAdded> {
     for (var tree in trees.docs) {
       setState(() {
         treeImages.add(tree.data());
-        isfetched =true;
+        isfetched = true;
         print(treeImages);
+        EasyLoading.showToast('Trees Extracted Succesfully');
       });
     }
   }
@@ -45,7 +46,8 @@ class _DisplayTreeAddedState extends State<DisplayTreeAdded> {
             ) {
               return Padding(
                 padding: const EdgeInsets.all(15.0),
-                child: Card(child: Column(
+                child: Card(
+                    child: Column(
                   children: [
                     Image.network(treeImages[index]['videourl']),
                     const Text('location:'),

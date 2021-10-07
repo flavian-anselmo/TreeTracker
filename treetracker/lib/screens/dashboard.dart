@@ -18,7 +18,7 @@ class _DashBoardState extends State<DashBoard> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text('Tree')),
+        title: const Center(child: Text('TreeTracker')),
       ),
       body: Padding(
           padding: const EdgeInsets.all(8.0),
@@ -38,6 +38,7 @@ class _DashBoardState extends State<DashBoard> {
                 crossAxisCount: 2,
                 children: [
                   InkWell(
+                    splashColor: Colors.green,
                     onTap: () {
                       //display the trees available
                       Navigator.push(context,
@@ -46,10 +47,11 @@ class _DashBoardState extends State<DashBoard> {
                       }));
                     },
                     child: const Card(
-                      child: Center(child: Text('My trees')),
+                      child: Center(child: Text('My trees',style: TextStyle(fontSize: 20),)),
                     ),
                   ),
                   InkWell(
+                    splashColor: Colors.green,
                     onTap: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
@@ -57,10 +59,11 @@ class _DashBoardState extends State<DashBoard> {
                       }));
                     },
                     child: const Card(
-                      child: Center(child: Text('Climate Change')),
+                      child: Center(child: Text('Climate Change',style: TextStyle(fontSize: 20))),
                     ),
                   ),
                   InkWell(
+                    splashColor: Colors.green,
                     onTap: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
@@ -69,11 +72,12 @@ class _DashBoardState extends State<DashBoard> {
                     },
                     child: const Card(
                       child: Center(
-                        child: Text('Microbit Project Demo'),
+                        child: Text('Microbit Project',style: TextStyle(fontSize: 20)),
                       ),
                     ),
                   ),
                   InkWell(
+                    splashColor: Colors.green,
                     onTap: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
@@ -82,7 +86,7 @@ class _DashBoardState extends State<DashBoard> {
                     },
                     child: const Card(
                       child: Center(
-                        child: Text('plant Trees'),
+                        child: Text('plant Trees',style: TextStyle(fontSize: 20)),
                       ),
                     ),
                   ),

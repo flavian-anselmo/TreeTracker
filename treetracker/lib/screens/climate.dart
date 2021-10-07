@@ -27,7 +27,7 @@ class ClimateChange extends StatelessWidget {
                     style: TextStyle(color: Colors.green),
                   )),
                   Text(
-                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'),
+                      'Independent temperature records form multiple official sources confirm that there is absolutely no doubt whatsoever that the earth is warming.Indeed each of the last three decades has been succesefull warmer than the one before,19 of the top 20 most warmest years have occured in the last 19 years and th past 4 years have been the hottest on record.2016 was the hottest year ever recoreded'),
                 ],
               ),
             ),
@@ -40,62 +40,14 @@ class ClimateChange extends StatelessWidget {
                     style: TextStyle(color: Colors.green),
                   )),
                   Text(
-                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'),
+                      'The planet is now very probabl hotter than at any point than in at least the last 125,000 years.A: Since the Industrial Revolution, the global annual temperature has increased in total by a little more than 1 degree Celsius, or about 2 degrees Fahrenheit. Between 1880—the year that accurate recordkeeping began—and 1980, it rose on average by 0.07 degrees Celsius (0.13 degrees Fahrenheit) every 10 years. Since 1981, however, the rate of increase has more than doubled: For the last 40 years, we’ve seen the global annual temperature rise by 0.18 degrees Celsius, or 0.32 degrees Fahrenheit, per decade.'),
                 ],
               ),
             ),
-            Card(
-              child: Column(
-                children: const [
-                  Center(
-                      child: Text(
-                    'WHAT IS THE GREEN HOUSE EFFECT? ',
-                    style: TextStyle(color: Colors.green),
-                  )),
-                  Text(
-                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'),
-                ],
-              ),
-            ),
-            Card(
-              child: Column(
-                children: const [
-                  Center(
-                      child: Text(
-                    'DOES THE EARTH CLIMATE CHANGE NATURALLY? ',
-                    style: TextStyle(color: Colors.green),
-                  )),
-                  Text(
-                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'),
-                ],
-              ),
-            ),
-            Card(
-              child: Column(
-                children: const [
-                  Center(
-                      child: Text(
-                    'IS THE RISE CARBON DIOXIDE LEVELS DUE TO HUMAN ACTIVITY?  ',
-                    style: TextStyle(color: Colors.green),
-                  )),
-                  Text(
-                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'),
-                ],
-              ),
-            ),
-            Card(
-              child: Column(
-                children: const [
-                  Center(
-                      child: Text(
-                    'CAN WE BE SURE THAT HUMAN ACTIVITY IS CAUSING GLOBAL WARMING? ',
-                    style: TextStyle(color: Colors.green),
-                  )),
-                  Text(
-                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'),
-                ],
-              ),
-            ),
+           
+           
+            
+            
           ],
         ),
       ),

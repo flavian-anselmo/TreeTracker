@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:treetracker/screens/climate.dart';
 import 'package:treetracker/screens/dashboard.dart';
 import 'package:treetracker/screens/goals.dart';
@@ -32,9 +33,11 @@ class MyApp extends StatelessWidget {
         UploadPhotoToDb.id: (context) => const UploadPhotoToDb(),
         ClimateChange.id: (context) => const ClimateChange(),
         Goals.id: (context) => const Goals(),
-        MicrobitSimulation.id:(context)=>const MicrobitSimulation(),
-        DisplayTreeAdded.id:(context)=>const DisplayTreeAdded(),
+        MicrobitSimulation.id: (context) => const MicrobitSimulation(),
+        DisplayTreeAdded.id: (context) => const DisplayTreeAdded(),
+
       },
+      builder: EasyLoading.init(),
     );
   }
 }
