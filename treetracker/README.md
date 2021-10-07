@@ -4,9 +4,9 @@ This is application was built during the Microsoft k12Hackfest for highschool ki
 
 ## The Team
 
- *Anselmo Flavian:Coach
- *Lomo Wycliffe:Teacher
- *Five grade five pupils
+- Anselmo Flavian:Coach
+- Lomo Wycliffe:Teacher
+- Five grade five pupils
 
 ## Technologies used
 
