@@ -4,18 +4,19 @@ This is application was built during the Microsoft k12Hackfest for highschool ki
 
 ## The Team
 
- *Anselmo Flavian:Coach
- *Lomo Wycliffe:Teacher
- *Five grade five pupils
+- Anselmo Flavian:Coach
+- Lomo Wycliffe:Teacher
+- Five grade five pupils
 
 ## Technologies used
 
 The project was a one day build created with:
- *Flutter
- *dart
- *Firebase
- *Microbit
- *Makecode
+
+- Flutter
+- dart
+- Firebase
+- Microbit
+- Makecode
 
 This project is a starting point for a Flutter application.
 
